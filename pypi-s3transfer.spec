@@ -4,7 +4,7 @@
 #
 Name     : pypi-s3transfer
 Version  : 0.6.0
-Release  : 65
+Release  : 66
 URL      : https://files.pythonhosted.org/packages/e1/eb/e57c93d5cd5edf8c1d124c831ef916601540db70acd96fa21fe60cef1365/s3transfer-0.6.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/e1/eb/e57c93d5cd5edf8c1d124c831ef916601540db70acd96fa21fe60cef1365/s3transfer-0.6.0.tar.gz
 Summary  : An Amazon S3 Transfer Manager
