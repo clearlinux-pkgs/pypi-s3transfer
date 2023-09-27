@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-s3transfer
-Version  : 0.6.2
-Release  : 74
-URL      : https://files.pythonhosted.org/packages/5a/47/d676353674e651910085e3537866f093d2b9e9699e95e89d960e78df9ecf/s3transfer-0.6.2.tar.gz
-Source0  : https://files.pythonhosted.org/packages/5a/47/d676353674e651910085e3537866f093d2b9e9699e95e89d960e78df9ecf/s3transfer-0.6.2.tar.gz
+Version  : 0.7.0
+Release  : 75
+URL      : https://files.pythonhosted.org/packages/3f/ff/5fd9375f3fe467263cff9cad9746fd4c4e1399440ea9563091c958ff90b5/s3transfer-0.7.0.tar.gz
+Source0  : https://files.pythonhosted.org/packages/3f/ff/5fd9375f3fe467263cff9cad9746fd4c4e1399440ea9563091c958ff90b5/s3transfer-0.7.0.tar.gz
 Summary  : An Amazon S3 Transfer Manager
 Group    : Development/Tools
 License  : Apache-2.0
@@ -53,10 +53,10 @@ python3 components for the pypi-s3transfer package.
 
 
 %prep
-%setup -q -n s3transfer-0.6.2
-cd %{_builddir}/s3transfer-0.6.2
+%setup -q -n s3transfer-0.7.0
+cd %{_builddir}/s3transfer-0.7.0
 pushd ..
-cp -a s3transfer-0.6.2 buildavx2
+cp -a s3transfer-0.7.0 buildavx2
 popd
 
 %build
@@ -64,7 +64,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1695155590
+export SOURCE_DATE_EPOCH=1695825520
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
